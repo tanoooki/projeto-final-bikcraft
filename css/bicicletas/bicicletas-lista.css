@@ -1,0 +1,10 @@
+.bicicletas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 0px 20px;
+}
+
+.bicicletas-item img{
+    border-radius: 4px;
+}
