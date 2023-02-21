@@ -10,6 +10,7 @@
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimentos.css";
+@import "./home/seguros.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
