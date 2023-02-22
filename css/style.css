@@ -11,6 +11,7 @@
 @import "./home/parceiros.css";
 @import "./home/depoimentos.css";
 @import "./home/seguros.css";
+@import "./home/footer.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";

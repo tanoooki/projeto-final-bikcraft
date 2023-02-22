@@ -1,0 +1,69 @@
+.footer-bg {
+    background: var(--cor-12);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-informacoes a {
+    display: block;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-titulo {
+    padding-bottom: 60px;
+}
+
+.footer-contato li {
+    margin-bottom: 16px;
+}
+
+.footer-link {
+    display: grid;
+    gap: 20px;
+}
+
+.copyright {
+    padding-bottom: 60px;
+}
+
+.footer-contato li:nth-last-child(odd):after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 2px;
+    background: var(--cor-11);
+    margin-top: 16px;
+}
+
+.footer a:hover {
+    color: var(--cor-0);
+}
+
+@media (max-width: 800px) {
+    .footer > a {
+        display: none;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+    .copyright {
+        margin-top: 0px;
+    }
+}
