@@ -10,7 +10,6 @@
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimentos.css";
-@import "./home/seguros.css";
 @import "./home/footer.css";
 
 /* Utilidades */
@@ -23,3 +22,8 @@
 
 /* Termos */
 @import "./termos/termos.css";
+
+/* Seguros */
+@import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
