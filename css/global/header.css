@@ -36,7 +36,7 @@
     position: absolute;
 }
 
-.header-menu a:hover::after {
+.header-menu a:hover::after, .header-menu a.ativo::after {
     width: 100%;
 
 }
@@ -58,6 +58,7 @@
     }
 }
 
+
 @media (max-width: 600px) {
     .header-menu {
         gap: 12px;
@@ -67,3 +68,4 @@
         font-size: .875rem;
     }
 }
+
